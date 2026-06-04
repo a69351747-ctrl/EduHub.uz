@@ -1,0 +1,53 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "eduhub/contact-form",
+	"title": "Contact Form",
+	"category": "widgets",
+	"description": "Front-end contact and support inquiry form collecting visitor name, email, subject, and message. Persists each submission to the eduhub_inquiry CPT via the REST API.",
+	"supports": {
+		"html": false,
+		"color": {
+			"background": true,
+			"text": true
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true
+		},
+		"typography": {
+			"fontSize": true
+		}
+	},
+	"attributes": {
+		"buttonLabel": {
+			"type": "string",
+			"default": "Yuborish"
+		},
+		"successMessage": {
+			"type": "string",
+			"default": "Rahmat! Xabaringiz muvaffaqiyatli yuborildi. Tez orada siz bilan bog'lanamiz."
+		},
+		"namePlaceholder": {
+			"type": "string",
+			"default": "Ismingiz"
+		},
+		"emailPlaceholder": {
+			"type": "string",
+			"default": "Elektron pochtangiz"
+		},
+		"subjectPlaceholder": {
+			"type": "string",
+			"default": "Mavzu"
+		},
+		"messagePlaceholder": {
+			"type": "string",
+			"default": "Xabaringizni yozing..."
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}

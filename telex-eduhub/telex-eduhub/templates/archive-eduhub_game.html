@@ -1,0 +1,59 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|60"}}}} -->
+<main class="wp-block-group" style="margin-top:0;padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"720px"}} -->
+<div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":1,"textColor":"text","fontFamily":"heading","fontSize":"display","style":{"typography":{"fontWeight":"900","letterSpacing":"-0.03em"}}} -->
+<h1 class="wp-block-heading has-text-color has-heading-font-family has-display-font-size" style="font-weight:900;letter-spacing:-0.03em">O'yinlar</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"textColor":"muted","fontSize":"large"} -->
+<p class="has-muted-color has-text-color has-large-font-size">Bog'cha bolalaridan talabalargacha — har bir yosh uchun interaktiv va qiziqarli ta'limiy o'yinlar to'plami. O'zingizga mos kategoriyani tanlang va o'ynashni boshlang.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:query {"query":{"postType":"eduhub_game","perPage":12,"order":"asc","orderBy":"menu_order"},"align":"wide"} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:group {"tagName":"article","backgroundColor":"surface","textColor":"text","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"blockGap":"var:preset|spacing|20"},"border":{"radius":"20px"}},"layout":{"type":"constrained"}} -->
+<article class="wp-block-group has-text-color has-surface-background-color has-background" style="border-radius:20px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/3","style":{"border":{"radius":"12px"}}} /-->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--20)"><!-- wp:group {"backgroundColor":"sage-mist","textColor":"primary","fontSize":"small","style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}},"border":{"radius":"100px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group has-primary-color has-sage-mist-background-color has-text-color has-background has-small-font-size" style="border-radius:100px;padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"textColor":"primary","fontFamily":"heading","fontSize":"small","style":{"typography":{"fontWeight":"700"}},"metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"age_group"}}}}} -->
+<p class="has-primary-color has-text-color has-heading-font-family has-small-font-size" style="font-weight:700"></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"backgroundColor":"white","textColor":"tertiary","fontSize":"small","style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}},"border":{"radius":"100px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group has-tertiary-color has-white-background-color has-text-color has-background has-small-font-size" style="border-radius:100px;padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"textColor":"tertiary","fontFamily":"heading","fontSize":"small","style":{"typography":{"fontWeight":"700"}},"metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"difficulty"}}}}} -->
+<p class="has-tertiary-color has-text-color has-heading-font-family has-small-font-size" style="font-weight:700"></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:post-title {"level":3,"isLink":true,"fontFamily":"heading","fontSize":"large","style":{"typography":{"fontWeight":"800"}}} /-->
+
+<!-- wp:post-excerpt {"excerptLength":18,"textColor":"muted","fontSize":"small"} /-->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10","margin":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"textColor":"muted","fontSize":"small","style":{"typography":{"fontWeight":"600"}}} -->
+<p class="has-muted-color has-text-color has-small-font-size" style="font-weight:600">Kategoriya:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"primary","fontFamily":"heading","fontSize":"small","style":{"typography":{"fontWeight":"700"}},"metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"category"}}}}} -->
+<p class="has-primary-color has-text-color has-heading-font-family has-small-font-size" style="font-weight:700"></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></article>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
